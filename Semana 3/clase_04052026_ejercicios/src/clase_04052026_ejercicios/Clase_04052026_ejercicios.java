@@ -14,24 +14,33 @@ public class Clase_04052026_ejercicios {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int tamano = 5;
+        int tamano = 3;
         int tamano2 = tamano;
-        int contador = 1;
         int contador2 = 1;
-        // * * * * * 
+        int contador = 0;
+        /*
+         * * * * *
+         * * * * *
+         * * * * *
+         * * * * *
+        */
+        // este while me ayuda a repetir lineas
         while (contador2 <= tamano2) {
-              contador=0;
+             contador = 1;
+              // este while me ayuda a dibujar las lineas 
             while (contador <= tamano) {
-                System.out.print("*");
+                System.out.print(" * ");
 
                 contador++;
             }
+            // esta linea me ayuda a agregar un salto de linea
             System.out.println("");
             contador2++;
-        }
+        }    // fin del while grande   
+         
 
         System.out.println("");
 
-    }
+    }// fin del main 
 
 }
