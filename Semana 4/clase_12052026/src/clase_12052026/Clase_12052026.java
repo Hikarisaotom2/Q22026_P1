@@ -39,8 +39,9 @@ public class Clase_12052026 {
 //        }else{
 //            System.out.println("La contraseña es incorrecta...");
 //        }
+
         System.out.println("Comparando usando equals");
-        if(cadena.equals("Gato")){
+        if(cadena.equals("Gato")){ 
            System.out.println("Bienvenido al menu secreto...");
         }else{
             System.out.println("La contraseña es incorrecta...");
