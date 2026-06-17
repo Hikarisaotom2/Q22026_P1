@@ -30,6 +30,7 @@ public class Clase_11062026 {
             -> id 
             -> Ciudad 
          */
+
         ArrayList<String> personas = new ArrayList<String>();
         personas.add("123-Claudia Cortes-TGU");
         personas.add("124-Claudia Pavon-SPS");
@@ -45,6 +46,9 @@ public class Clase_11062026 {
         }
 
     }// fin del main 
+
+
+    
 
     public static ArrayList<String> agregarPersonas(ArrayList<String> personas) {
         Scanner entrada = new Scanner(System.in);
